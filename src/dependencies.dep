@@ -1,0 +1,115 @@
+# This file is generated automatically. DO NOT EDIT!
+
+build/normdg2d.o :  \
+	build/dgopt2d.o \
+	build/dgspace2d.o \
+	build/dgfluxspace2d.o
+
+build/localopt1d.o :  \
+	build/mylinalgebra.o \
+	build/jacobip.o
+
+build/osm.o :  \
+	build/mylinalgebra.o \
+	build/intfspace2d.o \
+	build/alldgspace2d.o
+
+build/localopt2d.o :  \
+	build/mylinalgebra.o \
+	build/simplex2dp.o
+
+build/functional2mat.o :  \
+	build/alldgspace2d.o \
+	build/spmat.o
+
+build/simplex2dp.o :  \
+	build/jacobip.o
+
+build/ddopt2d.o :  \
+	build/triangulate2d.o \
+	build/pnpoly.o \
+	build/dgspace2d.o \
+	build/ddgeo2d.o
+
+build/main.o :  \
+	build/functional2mat.o \
+	build/normdg2d.o \
+	build/triangulate2d.o \
+	build/dgopt2d.o \
+	build/osm.o \
+	build/alldgspace2d.o \
+	build/mylinalgebra.o \
+	build/func2mat.o \
+	build/nestddmesh2d.o \
+	build/intfspace2d.o \
+	build/interpolate2d.o
+
+build/pnpoly.o : 
+
+build/brokentracespace2d.o :  \
+	build/triangulate2d.o \
+	build/localopt1d.o
+
+build/dgspace2d.o :  \
+	build/localopt2d.o \
+	build/triangulate2d.o \
+	build/localopt1d.o
+
+build/mesh2dlib.o : 
+
+build/intfspace2d.o :  \
+	build/nestddmesh2d.o \
+	build/alldgspace2d.o
+
+build/singletracespace2d.o :  \
+	build/triangulate2d.o \
+	build/localopt1d.o
+
+build/singletraceopt2d.o :  \
+	build/brokentracespace2d.o \
+	build/singletracespace2d.o
+
+build/dgopt2d.o :  \
+	build/brokentracespace2d.o \
+	build/mylinalgebra.o \
+	build/dgfluxspace2d.o \
+	build/singletraceopt2d.o \
+	build/dgspace2d.o \
+	build/interpolate2d.o
+
+build/jacobip.o : 
+
+build/interpolate2d.o :  \
+	build/dgspace2d.o
+
+build/dgfluxspace2d.o :  \
+	build/dgspace2d.o
+
+build/femspace2d.o :  \
+	build/localopt2d.o \
+	build/triangulate2d.o
+
+build/alldgspace2d.o :  \
+	build/brokentracespace2d.o \
+	build/dgopt2d.o \
+	build/singletracespace2d.o \
+	build/dgspace2d.o \
+	build/dgfluxspace2d.o
+
+build/nestddmesh2d.o :  \
+	build/triangulate2d.o \
+	build/pnpoly.o
+
+build/mylinalgebra.o : 
+
+build/func2mat.o :  \
+	build/dgopt2d.o
+
+build/spmat.o : 
+
+build/ddgeo2d.o : 
+
+build/triangulate2d.o : 
+
+build/fctl2mat.o :  \
+	build/dgopt2d.o
