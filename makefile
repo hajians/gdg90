@@ -38,6 +38,6 @@ $(BUILDDIR)/%.o: $(SRCDIR)/%.f90
 
 clean:
 	@echo "Cleaning..."
-	rm -f $(BUILDDIR)/*.o $(MODDIR)/*.mod 
+	rm -f $(BUILDDIR)/*.o $(MODDIR)/*.mod $(TARGET)/*
 
 

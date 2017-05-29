@@ -35,10 +35,10 @@ program test10
   k = 1
 
   !! reading the coarse and fine meshes
-  call readtri2d('../mesh/Hh/BOX-3.1',ThC)
+  call readtri2d('mesh/Hh/BOX-3.1',ThC)
   call buildtri2d(ThC)
 
-  call readtri2d('../mesh/Hh/BOX-3.2',ThF)
+  call readtri2d('mesh/Hh/BOX-3.2',ThF)
   call buildtri2d(ThF)
 
   call buildnestmesh2d(ThC, ThF, nest2d)
@@ -68,14 +68,14 @@ program test10
   
   !! sparse matrix
   call bilinpr2spmat(bilinpr,U,V,spA)
-  call writespmat('stiffness',spA)
+  call writespmat('out/stiffness',spA)
 
   ! nullify bilinear pointer
-  bilinpr => null()
-  bilinpr => energy
+  ! bilinpr => null()
+  ! bilinpr => energy
 
-  call bilinpr2spmat(bilinpr,U,V,spEnergy)
-  call writespmat('energy',spEnergy)
+  ! call bilinpr2spmat(bilinpr,U,V,spEnergy)
+  ! call writespmat('energy',spEnergy)
 
   write(6,*) "end assembly"
   

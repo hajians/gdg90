@@ -115,7 +115,9 @@ contains
     do edge=1, Th%n_edge
        locedgedof = prdg%paramSc%edge2idof(edge,:)
 
-       prdg%paramSc%edgedof(locedgedof) =50.0 / prdg%paramSc%edge2J1d(edge)
+       
+       prdg%paramSc%edgedof(locedgedof) = 50.0 / prdg%paramSc%edge2J1d(edge) ! choosing penalty parameter
+       
        do dim=1, Th%n_dim
           prdg%paramFlux%cp(dim)%edgedof(locedgedof) = &
                prdg%paramSc%edgedof(locedgedof)               
