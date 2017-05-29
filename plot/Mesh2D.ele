@@ -1,0 +1,16 @@
+set label ' 1' at first 0.25, first 0.42
+set label ' 2' at first 0.25, first 0.92
+set label ' 3' at first 0.75, first 0.42
+set label ' 4' at first 0.42, first 0.25
+set label ' 5' at first 0.08, first 0.75
+set label ' 6' at first 0.58, first 0.25
+set label ' 7' at first 0.25, first 0.08
+set label ' 8' at first 0.75, first 0.92
+set label ' 9' at first 0.08, first 0.25
+set label '10' at first 0.92, first 0.75
+set label '11' at first 0.42, first 0.75
+set label '12' at first 0.25, first 0.58
+set label '13' at first 0.75, first 0.58
+set label '14' at first 0.58, first 0.75
+set label '15' at first 0.92, first 0.25
+set label '16' at first 0.75, first 0.08
