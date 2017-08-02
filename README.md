@@ -23,12 +23,11 @@ end function L2norm
 # Example
 
 Compile the main.f90 using:
+```bash
 make main
+```
 
 This file implements the stiffness matrix associated to interior
 penalty method (which is one of the popular DG methods) and writes it
 as a sparse matrix into a file. The mathematical problem is defined
 as:
-```latex 
-a(u,v) = F(v)
-```
