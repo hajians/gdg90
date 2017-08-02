@@ -22,7 +22,7 @@ end function L2norm
 
 # Example
 
-Compile the main.f90 using:
+Compile the `main.f90` using:
 ```bash
 make main
 ```
