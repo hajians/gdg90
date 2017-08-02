@@ -29,5 +29,4 @@ make main
 
 This file implements the stiffness matrix associated to interior
 penalty method (which is one of the popular DG methods) and writes it
-as a sparse matrix into a file. The mathematical problem is defined
-as:
+as a sparse matrix into a file. 
