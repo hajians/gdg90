@@ -14,7 +14,7 @@ function L2norm(U) result(out)
 	real :: out                 ! a real value for norm
 
 	out = dot0Th(U,U)           ! computes L2-norm by 
-                            ! performing inner product
+                                ! performing inner product
 	out = sqrt(out)
 end function L2norm
 ```
