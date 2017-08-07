@@ -36,11 +36,11 @@ as a sparse matrix into a file.
 You can find details on implementation and properties of such methods
 in
 1. Jan S. Hesthaven and Tim Warburton,
-   *Nodal Discontinuous Galerkin Methods: Algorithms, Analysis, and
-   Applications*, Springer-Verlag New York (2008).
-   [URL](http://www.springer.com/us/book/9780387720654)
+   **Nodal Discontinuous Galerkin Methods: Algorithms, Analysis, and
+   Applications**, Springer-Verlag New York (2008).
+   [(URL)](http://www.springer.com/us/book/9780387720654)
 2. Martin J. Gander and Soheil Hajian,
-   *Analysis of Schwarz methods for a hybridizable discontinuous
-   Galerkin discretization*, SIAM Journal on Numerical Analysis, 53
+   **Analysis of Schwarz methods for a hybridizable discontinuous
+   Galerkin discretization**, SIAM Journal on Numerical Analysis, 53
    (2015), pp. 573-597.
-   [PDF](http://www.math.hu-berlin.de/~hajianso/pub/96185.pdf)
+   [(PDF)](http://www.math.hu-berlin.de/~hajianso/pub/96185.pdf)
